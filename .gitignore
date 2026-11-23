@@ -221,3 +221,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# animated-shorts pipeline outputs (renders, audio, blend files)
+output/
+*.blend1
+
+# local hand-off archives
+animated-shorts.zip
+animated-shorts.bundle

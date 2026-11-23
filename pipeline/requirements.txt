@@ -1,0 +1,7 @@
+# Core (all steps except rendering)
+numpy>=1.26
+# Rendering without installing the Blender app (headless/CPU). With the Blender
+# app installed you do NOT need this: run `blender -b -P pipeline/blender/build_episode.py -- ...`
+bpy==5.3.0 ; python_version >= "3.13"
+# Optional: accurate word timings for a voice you recorded yourself
+# faster-whisper>=1.0
